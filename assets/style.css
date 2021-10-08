@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: caveat;
+    background-color: #302b2c;
+}
+
+.container {
+background: url(img/bg.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+margin: 0 auto;
+}
+
+.title {
+font-family: 'Oswald', sans-serif;
+font-size: 70px;
+text-align: center;
+background: rgba(0, 0, 0, 0.47);
+font-weight: 700;
+color: aliceblue;
+letter-spacing: 10px;
+width: 100%;
+position: absolute;
+margin-top: 230px;
+margin-left: 0;
+text-transform: uppercase;
+color: #d48f46;
+}
+
+.note {
+    color: #6e0419;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.paper {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    width: 400px;
+    font-size: 32px;
+    margin-top: -650px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.gif {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 400px;
+}
